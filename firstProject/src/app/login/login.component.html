@@ -1,0 +1,29 @@
+<div class="loginForm">
+<h4 class="text-center">Login Page - Reactive Form - Angular</h4>
+
+<div class="container justify-content-center">
+	<form [formGroup]="loginForm" (ngSubmit)="onSubmit()" novalidate>
+		<div class="form-group">
+			<strong><label for="exampleInputEmail1">Email address :- </label></strong>
+      <input #email type="email" class="form-control" formControlName="email" placeholder="Enter email">
+      <small class="form-text text-danger" 
+        *ngIf="loginForm.controls.email.touched && loginForm.controls.email.errors?.required">
+          Please enter email address.!
+      </small>
+
+      <small class="form-text text-danger"
+      *ngIf="loginForm.controls.email.touched && loginForm.controls.email.errors?.email">
+        Email address not well formed.!
+      </small>
+    </div>
+    
+    <div class="form-group">
+    <strong> <label for="exampleInputPassword1">Password :- </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+      <input #pass type="password" class="form-control" formControlName="password" placeholder="Password">
+    </div>
+    <button type="submit" class = "btn btn-success"  [disabled]="!loginForm.valid" (click)="createData(email.value,pass.value)" (click)="checkUser(email.value,pass.value)" >Submit</button>
+    <button type="reset" class = "btn btn-danger" >Reset</button> <br>
+    <a href="#"> Forgotten password? </a>
+  </form>
+</div>
+</div> 

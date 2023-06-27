@@ -1,0 +1,21 @@
+nav{
+    padding: 20px;
+    margin: 10px 5px;
+    background-color: darkgray;
+    color: white;
+}
+.nav-link{
+    font-size: larger;
+    font-weight: bolder;
+    color: darkslategrey;
+}
+#navbtn{
+    margin-left: 180px;
+}
+h3{
+    margin-left: 150px;
+    color: whitesmoke;
+    border: double black;
+    border-radius: 30px;
+    padding: 5px 20px;
+}

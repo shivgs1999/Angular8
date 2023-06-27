@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .mobile-info {
+    display: flex;
+  }
+  
+  .mobile-image {
+    flex: 1;
+  }
+  
+  .mobile-details {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .mobile-specs {
+    margin-top: 20px;
+  }
+  
+  .mobile-specs table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .mobile-specs th,
+  .mobile-specs td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }

@@ -1,0 +1,57 @@
+<!-- 
+<h3> Array of object: News From API (Table 1) </h3>
+<br>
+<table class="table table-striped border border-danger">
+    <thead>
+        <tr class="border border-danger">
+            <th class="border border-danger">UUID</th>
+            <th class="border border-danger">Title</th>
+            <th class="border border-danger">Publisher</th>
+            <th class="border border-danger">Link</th>
+        </tr>
+    </thead>
+    <tbody> 
+        <tr *ngFor="let new of news">
+            <td class="border border-danger">{{new.uuid}}</td>
+            <td class="border border-danger">{{new.title}}</td>
+            <td class="border border-danger">{{new.publisher}}</td>
+            <td class="border border-danger">{{new.link}}</td>
+        </tr>
+    </tbody>
+  </table>
+
+
+
+<h3> Array of object Qupotes From API (Table 2) </h3>
+<br>
+<table class="table table-striped border border-primary">
+    <thead>
+        <tr class="border border-primary">
+            <th class="border border-primary">Exchange</th>
+            <th class="border border-primary">Short Name</th>
+            <th class="border border-primary">Quote Type</th>
+            <th class="border border-primary">Symbole</th>
+            <th class="border border-primary">Index</th>
+        </tr>
+    </thead>
+    <tbody> 
+        <tr *ngFor="let quote of quotes">
+            <td class="border border-primary">{{quote.exchange}}</td>
+            <td class="border border-primary">{{quote.shortname}}</td>
+            <td class="border border-primary">{{quote.quoteType}}</td>
+            <td class="border border-primary">{{quote.symbol}}</td>
+            <td class="border border-primary">{{quote.index}}</td>
+        </tr>
+    </tbody>
+  </table> -->
+
+
+<div class="container text-center" id="body">
+    <h3>Matche Information</h3>
+    <div class="" *ngFor="let m of typeMatches; let i=index;">
+        <div>
+           {{m.seriesMatches}} 
+        </div>
+    </div>
+</div>        
+

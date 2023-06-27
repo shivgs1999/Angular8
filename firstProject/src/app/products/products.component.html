@@ -1,0 +1,95 @@
+<div class="paqge-area">
+    <div class="text-center">
+        <h2>Products</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet inventore hic neque itaque? Praesentium officia asperiores distinctio consequatur assumenda quas quibusdam dolores quaerat nam? Ratione sequi enim mollitia at illo.</p>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-9 border">
+            <div class="card" >
+                <img class="card-img-top" src="../../assets/laptops.png" alt="Card image cap" height="200px" width="100px">
+                <div class="card-body">
+                  <h5 class="card-title">Laptop</h5>
+                  <a routerLink="laptop" class="btn btn-primary">Go Laptop</a>&nbsp;
+                  <a routerLink="/cart" class="btn btn-info" (click)=addtocart(item)>Add To Cart</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="../../assets/monitor.png" alt="Card image cap" height="200px" width="100px">
+                <div class="card-body">
+                  <h5 class="card-title">TV</h5>
+                  <a routerLink="tv" class="btn btn-primary">Go TV</a>&nbsp;
+                  <a routerLink="/cart" class="btn btn-info" (click)=addtocart(item)>Add To Cart</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="../../assets/tablets.png" alt="Card image cap" height="200px" width="100px">
+                <div class="card-body">
+                  <h5 class="card-title">Mobile</h5>
+                  <a routerLink="mobile" class="btn btn-primary">Go Mobile</a>&nbsp;
+                  <a routerLink="/cart" class="btn btn-info" (click)=addtocart(item)>Add To Cart</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="../../assets/smwatch.png" alt="Card image cap" height="200px" width="100px">
+                <div class="card-body">
+                  <h5 class="card-title">Watch</h5>
+                  <a routerLink="watch" class="btn btn-primary">Go Watch</a>&nbsp;
+                  <a routerLink="/cart" class="btn btn-info" (click)=addtocart(item)>Add To Cart</a>
+                </div>
+              </div>
+
+              <div class="card" >
+                <img class="card-img-top" src="../../assets/alexa.png" alt="Card image cap" height="200px" width="100px">
+                <div class="card-body">
+                  <h5 class="card-title">Alexa</h5>
+                  <a routerLink=" " class="btn btn-primary">Go Alexa</a>&nbsp;
+                  <a routerLink="/cart" class="btn btn-info" (click)=addtocart(item)>Add To Cart</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="../../assets/cameras.png" alt="Card image cap" height="200px" width="100px">
+                <div class="card-body">
+                  <h5 class="card-title">Camera</h5>
+                  <a routerLink=" " class="btn btn-primary">Go Camera</a>&nbsp;
+                  <a routerLink="/cart" class="btn btn-info" (click)=addtocart(item)>Add To Cart</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="../../assets/hardDisk.png" alt="Card image cap" height="200px" width="100px">
+                <div class="card-body">
+                  <h5 class="card-title"> Disk</h5>
+                  <a routerLink=" " class="btn btn-primary">Go Disk</a>&nbsp;
+                  <a routerLink="/cart" class="btn btn-info" (click)=addtocart(item)>Add To Cart</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="../../assets/headphones.png" alt="Card image cap" height="200px" width="100px">
+                <div class="card-body">
+                  <h5 class="card-title">Budds</h5>
+                  <a routerLink=" " class="btn btn-primary">Go Budds</a>&nbsp;
+                  <a routerLink="/cart" class="btn btn-info" (click)=addtocart(item)>Add To Cart</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="../../assets/printer.png" alt="Card image cap" height="200px" width="100px">
+                <div class="card-body">
+                  <h5 class="card-title">printer</h5>
+                  <a routerLink=" " class="btn btn-primary">Go printer</a>&nbsp;
+                  <a routerLink="/cart" class="btn btn-info" (click)=addtocart(item)>Add To Cart</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="../../assets/desktop.png" alt="Card image cap" height="200px" width="100px">
+                <div class="card-body">
+                  <h5 class="card-title">Desktop</h5>
+                  <a routerLink=" " class="btn btn-primary">Go Desktop</a>&nbsp;
+                  <a routerLink="/cart" class="btn btn-info" (click)=addtocart(item)>Add To Cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3 border ">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

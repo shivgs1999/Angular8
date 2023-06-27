@@ -1,0 +1,23 @@
+.col{
+    border: 1px solid black;
+}
+.col-1{
+    border: 1px solid black;
+}
+nav{
+    font-size: xx-large;
+    padding: 10px;
+}
+h6, h5{
+    display: inline;
+    font-weight: bold;
+}
+#head{
+    color: aliceblue;
+    background-color: darkslategrey;
+    border: 1px solid black;
+}
+#body{
+    background-color: burlywood;
+    border: 1px solid black;
+}
